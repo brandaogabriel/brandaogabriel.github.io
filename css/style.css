@@ -1,27 +1,99 @@
 
 /* Tags */
 
-header{
-   text-align: center;
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: monospace, Arial, Helvetica, sans-serif;
 }
 
-footer{
+body{
+    background-color:#6A5ACD;
+}
+
+nav{
+
     text-align: center;
-    font-family: monospace;
+    background: white;
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 5px;
 }
 
+a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+a:hover{
+    color:orange;
+}
+
+hr{
+    margin-top: 10px;
+    border: 1px #6A5ACD solid;
+}
+
+h1{
+    margin: 30px 15px;
+}
+
+p{
+    margin-left: 15px;
+    margin-right: 5px;
+    text-align: left;
+
+}
+
+ul{
+    margin-left: 15px;
+    margin-right: 5px
+}
+
+li{
+    margin-left: 30px;
+}
 
 /* IDS */
+
 #menu{
-    padding: 30px;
+    margin-top: 10px;
+    width: auto;
 }
 
-#menu a{
-    text-decoration: none;
-    color: black;
-    font-family: monospace;
+#principal{
+    width: 710px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 5px 10px;
+    height: 1100px;
 }
 
-#menu a:hover{
-    text-decoration: underline;
+#profile{
+    height: 220px;
+    padding: 10px;
+    display: solid;
+}
+
+#profile-picture{
+    float:left;
+    padding: 10px;
+    border: white;
+    border-radius: 100px;
+}
+
+#introduction{
+    padding-left: 50px;
+    margin-top: 70px;
+}
+
+
+#profile-name{
+    text-align: left;
+    padding-left: 20px;
+    display: block;
 }
