@@ -8,11 +8,10 @@
 }
 
 body{
-    background-color:#6A5ACD;
+    background-color:#2c3e50;
 }
 
 nav{
-
     text-align: center;
     background: white;
     width: 700px;
@@ -25,6 +24,7 @@ a{
     color: black;
     text-decoration: none;
     padding: 5px 10px;
+    transition: color 0.3s linear;
 }
 
 a:hover{
@@ -33,7 +33,7 @@ a:hover{
 
 hr{
     margin-top: 10px;
-    border: 1px #6A5ACD solid;
+    border: 1px #2c3e50 solid;
 }
 
 h1{
@@ -65,10 +65,10 @@ li{
 
 #principal{
     width: 710px;
-    margin: 0 auto;
+    margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    background: white;
+    background-color: white;
     border-radius: 5px 10px;
     height: 1100px;
 }
@@ -77,6 +77,10 @@ li{
     height: 220px;
     padding: 10px;
     display: solid;
+}
+
+#profile #introduction{
+    margin-bottom: 60px;
 }
 
 #profile-picture{
@@ -97,3 +101,4 @@ li{
     padding-left: 20px;
     display: block;
 }
+
